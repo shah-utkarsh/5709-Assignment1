@@ -79,6 +79,8 @@
 }
 .navbar li{
   float: left;
+  padding: 20px;
+  color: white;
 }
 .navbar li a{
   display: block;
