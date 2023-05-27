@@ -37,7 +37,7 @@ function App() {
     { id: 4, name: 'Product 4', description: 'Description 4', price: 40, subcategoryId: 4 },
     { id: 5, name: 'Product 5', description: 'Description 5', price: 50, subcategoryId: 5 },
   ];
-  // Filter subcategories and products based on the selected category and subcategory
+ 
   const filteredSubcategories = subcategories.filter(
     (subcategory) => subcategory.categoryId === selectedCategory
   );
@@ -49,9 +49,9 @@ function App() {
   return (
     <div className="App">
       <ul className='navbar'>
-          <li><a href = "#">Home</a></li>
-          <li><a href = "#">About</a></li>
-          <li><a href = "#">Contact</a></li>
+          <li><a >Home</a></li>
+          <li><a >About</a></li>
+          <li><a >Contact</a></li>
         </ul>
       <header className="App-header">
         <h1>Welcome to the Marketplace</h1>
