@@ -49,9 +49,9 @@ function App() {
   return (
     <div className="App">
       <ul className='navbar'>
-          <li><a >Home</a></li>
-          <li><a >About</a></li>
-          <li><a >Contact</a></li>
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact</li>
         </ul>
       <header className="App-header">
         <h1>Welcome to the Marketplace</h1>
